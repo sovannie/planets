@@ -1,5 +1,5 @@
-*.dat       #ignore all data files
-!final.dat  #except final.data
-results/*   
-!results/data
+results/*
+!results/data   
+results/data/position/gps/*.dat
+!results/data/position/gps/final.dat
 log_*
